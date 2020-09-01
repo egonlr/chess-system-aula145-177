@@ -43,7 +43,7 @@ public class UI {
 			return new ChessPosition(column, row);
 		}
 		catch (RuntimeException e) {
-			throw new InputMismatchException("Error instantiating ChessPosition. Valid vaues are form a1 to h8");
+			throw new InputMismatchException("Error reading ChessPosition. Valid vaues are form a1 to h8");
 		}
 	}	
 	
